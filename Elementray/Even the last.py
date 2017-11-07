@@ -4,7 +4,7 @@ def checkio(array):
         return 0
 
     evenIndexesSum = 0
-    
+
     # 取出数组中偶数位的数的和
     for i in range(len(array)):  # range函数的用法。  len()取长度
         if  not i % 2:
