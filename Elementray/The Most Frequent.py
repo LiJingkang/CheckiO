@@ -37,3 +37,8 @@ def most_frequent(d):
         max=d.count(d[i]) if d.count(d[i])>max else max
         wyn=d[i] if d.count(d[i])==max else wyn
     return wyn
+
+########################
+    from collections import Counter
+    c = Counter(data)
+    return c.most_common()[0][0]
